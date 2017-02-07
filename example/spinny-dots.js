@@ -75,7 +75,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(50 + 25 * Math.sin(qe + re ), 25 * Math.sin(qs) + canvas.height/10 * 4, 5,100,122);
+            ctx.arc(50 + 25 * Math.asin(qe + re ), 25 * Math.asin(qs) + canvas.height/10 * 4, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -83,7 +83,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(100 + 25 * Math.sin(qe + re ) , 25 * Math.cos(qs) + canvas.height/10 * 4, 5,100,122);
+            ctx.arc(100 + 25 * Math.asin(qe + re ) , 25 * Math.acos(qs) + canvas.height/10 * 4, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -91,7 +91,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(150 + 25 * Math.sin(qe + re ) , 25 * Math.sin(qs) + canvas.height/10 * 4, 5,100,122);
+            ctx.arc(150 + 25 * Math.asin(qe + re ) , 25 * Math.asin(qs) + canvas.height/10 * 4, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -99,7 +99,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(200 + 25 * Math.sin(qe + re ) , 25 * Math.cos(qs) + canvas.height/10 * 4, 5,100,122);
+            ctx.arc(200 + 25 * Math.asin(qe + re ) , 25 * Math.acos(qs) + canvas.height/10 * 4, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -107,7 +107,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(250 + 25 * Math.sin(qe + re ) , 25 * Math.sin(qs) + canvas.height/10 * 4, 5,100,122);
+            ctx.arc(250 + 25 * Math.asin(qe + re ) , 25 * Math.asin(qs) + canvas.height/10 * 4, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -115,7 +115,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(300 + 25 * Math.sin(qe + re ) , 25 * Math.cos(qs) + canvas.height/10 * 4, 5,100,122);
+            ctx.arc(300 + 25 * Math.asin(qe + re ) , 25 * Math.acos(qs) + canvas.height/10 * 4, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -123,7 +123,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(350 + 25 * Math.sin(qe + re ) , 25 * Math.sin(qs) + canvas.height/10 * 4, 5,100,122);
+            ctx.arc(350 + 25 * Math.asin(qe + re ) , 25 * Math.asin(qs) + canvas.height/10 * 4, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -202,7 +202,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(50 + 25 * Math.sin(qe + rs) ,-1* 25 * Math.cos(qs) + canvas.height/10*6, 5,100,122);
+            ctx.arc(50 + 25 * Math.asin(qe + rs) ,-1* 25 * Math.acos(qs) + canvas.height/10*6, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -210,7 +210,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(100  + 25 * Math.sin(qe + rs),-1* 25 * Math.sin(qs) + canvas.height/10*6, 5,100,122);
+            ctx.arc(100  + 25 * Math.asin(qe + rs),-1* 25 * Math.asin(qs) + canvas.height/10*6, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -218,7 +218,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(150 + 25 * Math.sin(qe + rs) ,-1* 25 * Math.cos(qs) + canvas.height/10*6, 5,100,122);
+            ctx.arc(150 + 25 * Math.asin(qe + rs) ,-1* 25 * Math.acos(qs) + canvas.height/10*6, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -226,7 +226,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(200 + 25 * Math.sin(qe + rs) ,-1* 25 * Math.sin(qs) + canvas.height/10*6, 5,100,122);
+            ctx.arc(200 + 25 * Math.asin(qe + rs) ,-1* 25 * Math.asin(qs) + canvas.height/10*6, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -234,7 +234,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(250 + 25 * Math.sin(qe + rs) ,-1* 25 * Math.cos(qs) + canvas.height/10*6, 5,100,122);
+            ctx.arc(250 + 25 * Math.asin(qe + rs) ,-1* 25 * Math.acos(qs) + canvas.height/10*6, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -242,7 +242,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(300 + 25 * Math.sin(qe + rs) ,-1* 25 * Math.sin(qs) + canvas.height/10*6, 5,100,122);
+            ctx.arc(300 + 25 * Math.asin(qe + rs) ,-1* 25 * Math.asin(qs) + canvas.height/10*6, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
@@ -250,7 +250,7 @@ $(function() {
 
             ctx.beginPath();
 
-            ctx.arc(350  + 25 * Math.sin(qe + rs),-1* 25 * Math.cos(qs) + canvas.height/10*6, 5,100,122);
+            ctx.arc(350  + 25 * Math.asin(qe + rs),-1* 25 * Math.acos(qs) + canvas.height/10*6, 5,100,122);
             ctx.stroke();
 
             ctx.closePath();
